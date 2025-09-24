@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: uhs-eligibility-verification
+  datasource:
+    url: jdbc:postgresql://localhost:5432/eligibility
+    username: postgres
+    password: venumn
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
+        dialect:  org.hibernate.dialect.PostgreSQLDialect
+  sql:
+    init:
+      mode: always
+
+
+
