@@ -20,10 +20,10 @@ public class Patient {
     @Column(length =50)
     private String id;
 
-    @Column(nullable=false)
+    @Column(nullable=false, length = 100)
     private String name;
 
-    @Column(name="insurance_provider", nullable=false)
+    @Column(name="insurance_provider", nullable=false, length = 100)
     private String insuranceProvider;
 
     @Column(nullable = false)

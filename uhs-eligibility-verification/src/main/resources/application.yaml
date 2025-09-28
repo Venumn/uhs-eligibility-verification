@@ -18,5 +18,8 @@ spring:
     init:
       mode: always
 
+  security:
+    jwt:
+      secret: ${JWT_SECRET:NZg9IasC9bwPZ7rcmKyhwaShwXG4yMP8SAFEASESEDd676}
 
 
